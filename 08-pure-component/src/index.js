@@ -4,11 +4,11 @@ import { MyComponent } from "./demo";
 import "./styles.css";
 
 function App() {
-  return (
-    <div className="App">
-      <MyComponent />
-    </div>
-  );
+    return (
+        <div className="App">
+            <MyComponent />
+        </div>
+    );
 }
 
 const rootElement = document.getElementById("root");
