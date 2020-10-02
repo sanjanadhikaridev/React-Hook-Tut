@@ -15,6 +15,7 @@ export const MyComponent = () => {
 
         setTimeout(() => {
             setMessage(`Total seconds: ${secondsRef.current}`);
+            
         }, 2000);
     }, []);
 
